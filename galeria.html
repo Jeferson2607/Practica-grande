@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de imagenes</title>
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de imagenes</h1>
+
+        <nav>
+            <ul class="menu">
+                <hr>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="index.html">Cerrar Sesión</a></li>
+                <hr>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
+
+    <section class="galeria">
+        <h2>Nuestra Galeria</h2>
+     <div class="Gallery">
+         <img src="Imagenes/foro1.jpg"  onclick="openLightbox(this.src) " alt="1">
+        <img src="Imagenes/foto2.jpg" onclick="openLightbox(this.src)" alt="2">
+        <img src="Imagenes/foto3.jpg" onclick="openLightbox(this.src)" alt="3">
+        <img src="Imagenes/images (4).jpg" onclick="openLightbox(this.src)" alt="4">
+        <img src="Imagenes/foto5.jpg" onclick="openLightbox(this.src)" alt="5">
+        <img src="Imagenes/foto6.jpg" onclick="openLightbox(this.src)" alt="6">
+        <img src="Imagenes/foto7.jpg" onclick="openLightbox(this.src)" alt="7">
+        <img src="Imagenes/foto8.jpg"  onclick="openLightbox(this.src)" alt="8">
+    </div>
+
+    <div id="lightbox" class ="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="">
+    </div>
+       
+    
+    </section>
+    
+ 
+</body>
+</html>

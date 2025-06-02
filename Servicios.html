@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web</title>
+    <link rel="stylesheet" href="servicios.css">
+</head>
+<body>
+    <header>
+        <h1>Servicios</h1>
+
+        <nav>
+            <ul class="menu">
+                <hr>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="index.html">Cerrar Sesión</a></li>
+                <hr>
+            </ul>
+
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Lo que ofrecemos</h2>
+            <ul>
+                <li> ✅Exelentes imagenes de carros deportivos</li>
+                <li> ✅Carros deportivos ultimo modelo</li>
+                <li> ✅Experiencias inolvidable</li>
+            </ul>
+        </section>
+        <section id="testimonios">
+            <h2>Opiniones de Nuestros Usuarios</h2>
+
+            <form id="formComentario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required><br><br>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" required ></textarea><br><br>
+
+                <button type="submit">Enviar Comentario</button>
+            </form>
+
+            <h3>Comentarios Recientes:</h3>
+            <ul id="listaComentario"></ul>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2025 Mi sitio web</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><img src="Imagenes/facebook.png" alt="facebook" width="35"></a>
+            <a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" alt="Instagram" width="35"></a>
+        </div>
+    </footer>    
+</body>
+</html>

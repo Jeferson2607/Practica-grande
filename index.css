@@ -1,0 +1,44 @@
+body{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-image: url(Imagenes/coche-4k-yduvczxgolxxu1nk.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        font-family: Arial, sans-serif;
+        color: white;
+        text-align: center;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+main{
+    width: 50%;
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.3) ;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, button{
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background: #555;
+}
