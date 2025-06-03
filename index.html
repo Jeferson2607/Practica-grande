@@ -1,32 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="imagenes/png" href="Imagenes/contrasena-de-inicio-de-sesion.png">
-    <title>Registro</title>
-    <link rel="stylesheet" href="registro.css">
+    <title>Picture Cars</title>
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
+    <header>
+        <h1> Inicio</h1>
+        <nav>
+            <ul class="menu">
+                <hr>
+                <li><a href="principal.html">Inicio</a></li>
+                <li><a href="Servicios.html">Servicios</a></li>
+                <li><a href="Acerca de.html">Acerca de</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactos.html">Contacto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="index.html">Cerrar Sesión</a></li>
+                <hr>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        </nav>
+    </header>
 
-    <main>
-        <section id="registro">
-            <h2>Registrate</h2>
-            <form id="registroform">
-                <label for="nuevoUsuario">Usuario:</label>
-                <input type="text" id="nuevoUsuario" required>
+    <section>
+        <h2>Sobre nosotros</h2>
+        <p>Dedicados a la toma de Imagenes de autos deportivos</p>        
+    </section>
 
-                <label for="nuevoPassword">Contraseña:</label>
-                <input type="password" id="nuevoPassword" required>
+    <section>
+    <img src="Imagenes/images.jpg" alt="1" width="350"><br>
+    </section>
 
-                <button type="submit"><a href="principal.html"></a>Registrarse</button>
-            </form>
-            <p>¿Ya tienes cuenta? <a href="index.html">Inicia sesión aquí</a></p>
-        </section>
-    </main>
-
-    <script src="app.js"></script>
+    <footer>
+        <p>&copy; 2025 Mi sitio web</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><img src="Imagenes/facebook.png" alt="facebook" width="35"></a>
+            <a href="https://www.instagram.com/"><img src="Imagenes/instagram.png" alt="Instagram" width="35"></a>
+        </div>
+    </footer>
     
 </body>
 </html>
